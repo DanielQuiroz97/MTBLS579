@@ -8,66 +8,36 @@ library(colorRamps)
 ## Import metadata ##
 metadata <- read_csv('metadata.csv')
 ##
-GB_01 <- read_chrom(name = 'data/01_GB.cdf', 5L,
-                    x_cut = c(8, 49), y_cut = c(1.3, 5))
-GB_02 <- read_chrom(name = 'data/02_GB.cdf', 5L,
-                    x_cut = c(8, 49), y_cut = c(1.3, 5))
-GB_04 <- read_chrom(name = 'data/04_GB.cdf', 5L,
-                    x_cut = c(8, 49), y_cut = c(1.3, 5))
-GB_05 <- read_chrom(name = 'data/05_GB.cdf', 5L,
-                    x_cut = c(8, 49), y_cut = c(1.3, 5))
-GB_06 <- read_chrom(name = 'data/06_GB.cdf', 5L,
-                    x_cut = c(8, 49), y_cut = c(1.3, 5))
-GB_07 <- read_chrom(name = 'data/07_GB.cdf', 5L,
-                    x_cut = c(8, 49), y_cut = c(1.3, 5))
-GB_08 <- read_chrom(name = 'data/08_GB.cdf', 5L,
-                    x_cut = c(8, 49), y_cut = c(1.3, 5))
-GB_09 <- read_chrom(name = 'data/09_GB.cdf', 5L,
-                    x_cut = c(8, 49), y_cut = c(1.3, 5))
-GB_10 <- read_chrom(name = 'data/10_GB.cdf', 5L,
-                    x_cut = c(8, 49), y_cut = c(1.3, 5))
-GB_11 <- read_chrom(name = 'data/11_GB.cdf', 5L,
-                    x_cut = c(8, 49), y_cut = c(1.3, 5))
-GB_12 <- read_chrom(name = 'data/12_GB.cdf', 5L,
-                    x_cut = c(8, 49), y_cut = c(1.3, 5))
-GB_13 <- read_chrom(name = 'data/13_GB.cdf', 5L,
-                    x_cut = c(8, 49), y_cut = c(1.3, 5))
-GB_14 <- read_chrom(name = 'data/14_GB.cdf', 5L,
-                    x_cut = c(8, 49), y_cut = c(1.3, 5))
-GB_16 <- read_chrom(name = 'data/16_GB.cdf', 5L,
-                    x_cut = c(8, 49), y_cut = c(1.3, 5))
-GB_17 <- read_chrom(name = 'data/17_GB.cdf', 5L,
-                    x_cut = c(8, 49), y_cut = c(1.3, 5))
-GB_18 <- read_chrom(name = 'data/18_GB.cdf', 5L,
-                    x_cut = c(8, 49), y_cut = c(1.3, 5))
-GB_19 <- read_chrom(name = 'data/19_GB.cdf', 5L,
-                    x_cut = c(8, 49), y_cut = c(1.3, 5))
-GB_21 <- read_chrom(name = 'data/21_GB.cdf', 5L,
-                    x_cut = c(8, 49), y_cut = c(1.3, 5))
-GB_22 <- read_chrom(name = 'data/22_GB.cdf', 5L, 
-                    x_cut = c(8, 49), y_cut = c(1.3, 5))
-GB_23 <- read_chrom(name = 'data/23_GB.cdf', 5L,
-                    x_cut = c(8, 49), y_cut = c(1.3, 5))
-GB_24 <- read_chrom(name = 'data/24_GB.cdf', 5L, 
-                    x_cut = c(8, 49), y_cut = c(1.3, 5))
-GB_25 <- read_chrom(name = 'data/25_GB.cdf', 5L,
-                    x_cut = c(8, 49), y_cut = c(1.3, 5))
-GB_26 <- read_chrom(name = 'data/26_GB.cdf', 5L,
-                    x_cut = c(8, 49), y_cut = c(1.3, 5))
-GB_27 <- read_chrom(name = 'data/27_GB.cdf', 5L,
-                    x_cut = c(8, 49), y_cut = c(1.3, 5))
-GB_28 <- read_chrom(name = 'data/28_GB.cdf', 5L, 
-                    x_cut = c(8, 49), y_cut = c(1.3, 5))
-GB_29 <- read_chrom(name = 'data/29_GB.cdf', 5L,
-                    x_cut = c(8, 49), y_cut = c(1.3, 5))
-GB_30 <- read_chrom(name = 'data/30_GB.cdf', 5L, 
-                    x_cut = c(8, 49), y_cut = c(1.3, 5))
-GB_31 <- read_chrom(name = 'data/31_GB.cdf', 5L,
-                    x_cut = c(8, 49), y_cut = c(1.3, 5))
-GB_32 <- read_chrom(name = 'data/32_GB.cdf', 5L,
-                    x_cut = c(8, 49), y_cut = c(1.3, 5))
-GB_34 <- read_chrom(name = 'data/34_GB.cdf', 5L, 
-                    x_cut = c(8, 49), y_cut = c(1.3, 5))
+GB_01 <- read_chrom(name = 'data/01_GB.cdf', 5L)
+GB_02 <- read_chrom(name = 'data/02_GB.cdf', 5L)
+GB_04 <- read_chrom(name = 'data/04_GB.cdf', 5L)
+GB_05 <- read_chrom(name = 'data/05_GB.cdf', 5L)
+GB_06 <- read_chrom(name = 'data/06_GB.cdf', 5L)
+GB_07 <- read_chrom(name = 'data/07_GB.cdf', 5L)
+GB_08 <- read_chrom(name = 'data/08_GB.cdf', 5L)
+GB_09 <- read_chrom(name = 'data/09_GB.cdf', 5L)
+GB_10 <- read_chrom(name = 'data/10_GB.cdf', 5L)
+GB_11 <- read_chrom(name = 'data/11_GB.cdf', 5L)
+GB_12 <- read_chrom(name = 'data/12_GB.cdf', 5L)
+GB_13 <- read_chrom(name = 'data/13_GB.cdf', 5L)
+GB_14 <- read_chrom(name = 'data/14_GB.cdf', 5L)
+GB_16 <- read_chrom(name = 'data/16_GB.cdf', 5L)
+GB_17 <- read_chrom(name = 'data/17_GB.cdf', 5L)
+GB_18 <- read_chrom(name = 'data/18_GB.cdf', 5L)
+GB_19 <- read_chrom(name = 'data/19_GB.cdf', 5L)
+GB_21 <- read_chrom(name = 'data/21_GB.cdf', 5L)
+GB_22 <- read_chrom(name = 'data/22_GB.cdf', 5L)
+GB_23 <- read_chrom(name = 'data/23_GB.cdf', 5L)
+GB_24 <- read_chrom(name = 'data/24_GB.cdf', 5L)
+GB_25 <- read_chrom(name = 'data/25_GB.cdf', 5L)
+GB_26 <- read_chrom(name = 'data/26_GB.cdf', 5L)
+GB_27 <- read_chrom(name = 'data/27_GB.cdf', 5L)
+GB_28 <- read_chrom(name = 'data/28_GB.cdf', 5L)
+GB_29 <- read_chrom(name = 'data/29_GB.cdf', 5L)
+GB_30 <- read_chrom(name = 'data/30_GB.cdf', 5L)
+GB_31 <- read_chrom(name = 'data/31_GB.cdf', 5L)
+GB_32 <- read_chrom(name = 'data/32_GB.cdf', 5L)
+GB_34 <- read_chrom(name = 'data/34_GB.cdf', 5L)
 
 # Plot all raw chromatograms
 lapply(ls(), function(x){
@@ -114,7 +84,7 @@ GB_34_smth <- wsmooth(GB_34, penalty = 2, lambda = 1e1)
 # Plot all smoothing chromatograms
 smothing_chrom <- ls()[grepl(pattern = 'smth',ls())]
 lapply(smothing_chrom, function(x){
-    jpeg(paste0('plots/smoothing/', x, '.jpg'), width = 8, height = 7, units = 'in',
+  jpeg(paste0('plots/smoothing/', x, '.jpg'), width = 8, height = 7, units = 'in',
        res = 350)
   plot(eval(as.name(x)),  nlevels = 150, color.palette = matlab.like)
   dev.off()
@@ -166,10 +136,10 @@ lapply(bsl_chrom, function(x){
 ## Peak Alignment ##
 # Non-carriage control
 conC_con <- list(GB_19 = GB_19_bsl, GB_21 = GB_21_bsl, GB_22 = GB_22_bsl,
-            GB_23 = GB_23_bsl, GB_24 = GB_24_bsl, GB_25 = GB_25_bsl,
-            GB_26 = GB_26_bsl, GB_27 = GB_27_bsl, GB_28 = GB_28_bsl,
-            GB_29 = GB_29_bsl, GB_30 = GB_30_bsl, GB_31 = GB_31_bsl,
-            GB_32 = GB_32_bsl, GB_34 = GB_34_bsl)
+                 GB_23 = GB_23_bsl, GB_24 = GB_24_bsl, GB_25 = GB_25_bsl,
+                 GB_26 = GB_26_bsl, GB_27 = GB_27_bsl, GB_28 = GB_28_bsl,
+                 GB_29 = GB_29_bsl, GB_30 = GB_30_bsl, GB_31 = GB_31_bsl,
+                 GB_32 = GB_32_bsl, GB_34 = GB_34_bsl)
 ncar_con <- batch_2DCOW(GB_18_bsl, conC_con, c(20, 40), c(2, 8))
 names(ncar_con@Batch_2DCOW)[1] <- 'GB_18'
 # S. Paratyphi carriage
@@ -185,7 +155,7 @@ stc_align <- batch_2DCOW(GB_01_bsl, stC_chrom,  c(20, 40), c(2, 8))
 names(stc_align@Batch_2DCOW)[1] <- 'GB_01'
 
 all_chrom <- join_chromatograms(ncar_con, SPc_align, stc_align,
-                                groups = metadata)
+                                 groups = metadata)
 
-M579_pca <- m_prcomp(all_chrom)
-save(M579_pca, file = 'MPCA.RData')
+M579_mpca <- m_prcomp(all_chrom)
+print(M579_mpca)
